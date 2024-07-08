@@ -17,6 +17,8 @@ jobs:
         uses: DragonLab0/iGEM-actions@main
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          IDT_CREDENTIALS: ${{ secrets.IDT_CREDENTIALS }}
         
 
   
